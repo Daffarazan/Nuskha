@@ -1,0 +1,22 @@
+NUSKHA - Pembaca PDF Arab (versi aplikasi, bisa offline)
+
+JANGAN klik dua kali index.html. Browser memblokir fitur penting kalau file dibuka langsung dari folder.
+Folder ini harus "dipasang" dulu di sebuah alamat web (cukup sekali), setelah itu bisa dipakai tanpa internet.
+
+CARA PALING MUDAH (gratis, tanpa menulis kode):
+1. Ekstrak (unzip) file nuskha-offline.zip sampai jadi sebuah folder.
+2. Di laptop, buka https://app.netlify.com/drop
+3. Seret folder nuskha-offline ke kotak yang tersedia. Tunggu sampai selesai.
+4. Netlify memberi alamat berakhiran .netlify.app. Kalau diminta kata sandi sementara,
+   masuk atau daftar akun gratis di Netlify untuk "claim" situsnya.
+5. Buka alamat itu di laptop dan di HP.
+
+PASANG SEBAGAI APLIKASI:
+- Laptop (Chrome/Edge): tekan tombol "Pasang aplikasi" di pojok atas Nuskha, atau ikon pasang di kanan kolom alamat.
+- HP Android (Chrome): menu titik tiga, lalu "Instal aplikasi" atau "Tambahkan ke layar utama".
+- iPhone (Safari): tombol Bagikan, lalu "Tambah ke Layar Utama".
+
+SETELAH ITU:
+- Buka aplikasinya sekali saat ada internet sampai muncul tulisan "Siap dipakai tanpa internet".
+- Sesudahnya Nuskha jalan tanpa internet, termasuk OCR. File PDF dibaca di perangkatmu dan tidak dikirim ke mana pun.
+- Kalau mau memperbarui aplikasi, unggah ulang folder yang baru ke alamat yang sama.

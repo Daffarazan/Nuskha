@@ -1,0 +1,23 @@
+OPEN NUSKHA ON YOUR PHONE
+
+1. Connect your phone and laptop to the same trusted Wi-Fi network.
+2. Double-click START-PHONE.cmd on the laptop (Python is already installed here).
+3. Under Wi-Fi in the displayed network details, find the IPv4 Address.
+4. In your phone browser, enter http:// followed by that address and :8001
+   Example: http://192.168.1.10:8001
+5. Tap Buka PDF and choose a PDF on your phone.
+
+Keep the laptop awake and the server window open. Press Ctrl+C to stop.
+If the address does not load, check Windows Firewall and Wi-Fi isolation.
+University/guest Wi-Fi may block devices from reaching each other; use a
+trusted home network or a phone hotspot with the laptop connected instead.
+The address can change after reconnecting Wi-Fi.
+
+This server shares only the nuskha-offline app folder with your network.
+Selected PDFs stay on the phone. Do not put private files in the app folder.
+
+INSTALL AND USE WITHOUT THE LAPTOP
+
+The Wi-Fi HTTP address does not support offline installation. For that,
+serve the app folder at an HTTPS address. See nuskha-offline/BACA-SAYA.txt
+for the existing hosting and Android/iPhone installation instructions.
